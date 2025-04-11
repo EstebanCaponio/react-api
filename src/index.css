@@ -39,6 +39,7 @@ h1 {
   display: inline-block;
   vertical-align: top;
   margin: 20px;
+  height: 530px;
 }
 
 .actress-card:hover {
