@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.actress-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 20px;
+  padding: 15px;
+  width: 300px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  vertical-align: top;
+}
+
+.actress-image {
+  width: 100%;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.actress-name {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.actress-info {
+  margin-bottom: 8px;
+}
+
+.actress-bio {
+  margin-bottom: 10px;
+}
+
+.actress-awards {
+  font-style: italic;
+  font-size: 0.9em;
+}

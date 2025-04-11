@@ -20,11 +20,16 @@ function App() {
   return (
     <>
       <div>
-        <ul>
-          {actressesList.map(actress => (
-            <li key={actress.id}> {actress.name}</li>
-          ))}
-        </ul>
+        {actressesList.map(actress => (
+          <div className='actress-card'>
+            <img src={actress.image} alt="immagine-attrice" className='actress-image' />
+            <h2 className='actress-name'>{actress.name}</h2>
+            <p className='actress-info'>{actress.birth_year}</p>
+            <p className='actress-info'>{actress.nationality}</p>
+            <p className='actress-bio'>{actress.biography}</p>
+            <p className='actress-awards'>{actress.awards}</p>
+          </div>
+        ))}
       </div>
     </>
   )
