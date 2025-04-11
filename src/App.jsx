@@ -19,7 +19,8 @@ function App() {
 
   return (
     <>
-      <div>
+      <h1>Schede Attrici</h1>
+      <div className='container'>
         {actressesList.map(actress => (
           <div className='actress-card'>
             <img src={actress.image} alt="immagine-attrice" className='actress-image' />
